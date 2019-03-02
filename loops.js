@@ -5,6 +5,6 @@ function whileLoop(n) {
  return 'done';
 } 
 function doWhileLoop (num) {
-  do { console.log('I run once regardless.');
+  do { incrementVariable(num);
 } while (incrementVariable() < num);
-}
+} console.log('I run once regardless.');
