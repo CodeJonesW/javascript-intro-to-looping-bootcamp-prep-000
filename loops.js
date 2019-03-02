@@ -4,7 +4,11 @@ function whileLoop(n) {
  }
  return 'done';
 }
-
+function forLoop (array) {
+  for (var i = 0; i < 25; i++) {
+    
+  }
+}
 
 
 
