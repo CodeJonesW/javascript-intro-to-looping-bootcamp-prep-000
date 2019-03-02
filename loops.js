@@ -14,7 +14,7 @@ function incrementVariable() {
   return i;
 }
 
-function doWhileLoop (num) {
+function doWhileLoop (array) {
   for (var i = 0; i < num; i++) { 
   do { 
 }
