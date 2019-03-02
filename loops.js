@@ -26,7 +26,7 @@ function incrementVariable() {
 function doWhileLoop (num) {
   do {
   [loopBody];
-} while ([condition]);
+} while (incrementVariable(i) < num);
 }
 
 
