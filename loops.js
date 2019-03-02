@@ -9,6 +9,8 @@ function incrementVariable() {
   return i;
 }
 function doWhileLoop (num) {
+  for (var i = 0; i < num; i++) { 
   do { console.log('I run once regardless.');
 } while (incrementVariable(i) < num);
 }
+}s
